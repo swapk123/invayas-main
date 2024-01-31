@@ -1,64 +1,63 @@
-.navbarContainer{
+/* Navbar.module.css */
+
+.navbarContainer {
   display: flex;
   justify-content: space-between;
-  align-items:center;
-}
-.invayasLogo{
-  width: 200px;
-}
-
-.navbarContents ul{
-display: flex;
-gap:30px;
+  align-items: center;
+  margin: 30px 20px;
+  padding: 0px 12px;
 }
 
-.navbarContents li{
-  list-style: none;
-  font-size: 18px; 
+.invayasLogo {
+  width: 180px;
 }
 
-
-.navbarContents ul li a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.navbarContents ul li a:hover,
-.navbarContents ul li a:active,
-.navbarContents ul li a:focus {
-  text-decoration: none;
-}
-/*navbar right side button css*/
-
-.serviceContactBtn{
+.navbarContents ul {
   display: flex;
-  gap:30px;
-}
-.callBtn{
-  color: #4C535D;
-  font-size: 18px;
-  margin: 15px 0px 0px;
-  padding: 12px 29px;
-  background-color: white;
-  border-radius: 10px;
-  border: 3px solid #4C535D;
+  gap: 30px;
 }
 
-.emailBtn{
-  color: #4C535D;
-  font-size: 18px;
-  margin: 15px 0px 0px;
-  padding: 12px 29px;
-  background-color: white;
-  border-radius: 10px;
-  border: 3px solid #4C535D;
+.navbarContents li {
+  list-style: none;
 }
-.whatsAppBtn{
-  color: #4C535D;
+
+.navbarContents a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #4c535d;
+  transition: color 0.3s ease; /* Add smooth transition for color change */
+}
+
+.navbarContents a:active,
+.navbarContents a:focus,
+.navbarContents .activeLink {
+  color: #FF9E1A; /* Change this to your desired active link color */
+}
+
+/* Navbar right side button CSS */
+.serviceContactBtn {
+  display: flex;
+  gap: 20px;
+}
+
+.callBtn,
+.emailBtn {
+  color: #4c535d;
   font-size: 18px;
   margin: 15px 0px 0px;
   padding: 12px 29px;
   background-color: white;
   border-radius: 10px;
-  border: 3px solid #4C535D;
+  border: 2px solid #4c535d;
+}
+
+.whatsAppBtn {
+  background-color: #25d366;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 15px 0px 0px;
+  padding: 12px 29px;
+  border-radius: 10px;
+  border: none;
 }
