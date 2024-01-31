@@ -1,0 +1,26 @@
+.homeContainer {
+  display: flex;
+}
+
+.KnowMoreBtn {
+  background-color: #4dc1ea;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffff;
+  padding: 12px 29px !important;
+  border-radius: 10px;
+  border: 2px solid #4dc1ea;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.7s;
+}
+
+.companyDetails {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  max-width: 450px;
+  color: #6a6f76;
+}

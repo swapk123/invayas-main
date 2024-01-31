@@ -1,4 +1,5 @@
 import React from "react";
+import styles from './Home.module.css';
 
 const Home = () => {
 
@@ -10,14 +11,14 @@ const homeSectionContents={
 }
   return (
     <React.Fragment>
-      <div>
+      <div className={styles.homeContainer}>
         <div>
           <img src={homeSectionContents.homeSectionImage} alt="" />
         </div>
         <div>
           <h1>{homeSectionContents.homeSectionHeading}</h1>
-          <p>{homeSectionContents.homeSectionDescription}</p>
-          <button>{homeSectionContents.homeSectionBtnContent}</button>
+          <p className={styles.companyDetails}>{homeSectionContents.homeSectionDescription}</p>
+          <button type="button" className={styles.KnowMoreBtn}>{homeSectionContents.homeSectionBtnContent}</button>
         </div>
       </div>
     </React.Fragment>
