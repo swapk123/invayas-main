@@ -1,0 +1,64 @@
+.navbarContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.invayasLogo{
+  width: 200px;
+}
+
+.navbarContents ul{
+display: flex;
+gap:30px;
+}
+
+.navbarContents li{
+  list-style: none;
+  font-size: 18px; 
+}
+
+
+.navbarContents ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbarContents ul li a:hover,
+.navbarContents ul li a:active,
+.navbarContents ul li a:focus {
+  text-decoration: none;
+}
+/*navbar right side button css*/
+
+.serviceContactBtn{
+  display: flex;
+  gap:30px;
+}
+.callBtn{
+  color: #4C535D;
+  font-size: 18px;
+  margin: 15px 0px 0px;
+  padding: 12px 29px;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid #4C535D;
+}
+
+.emailBtn{
+  color: #4C535D;
+  font-size: 18px;
+  margin: 15px 0px 0px;
+  padding: 12px 29px;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid #4C535D;
+}
+.whatsAppBtn{
+  color: #4C535D;
+  font-size: 18px;
+  margin: 15px 0px 0px;
+  padding: 12px 29px;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid #4C535D;
+}
