@@ -1,11 +1,14 @@
+
+
+/* Common styles for both desktop and mobile */
 .homeContainer {
   display: flex;
   background-color: red;
 }
+
 .homeSectionLeftSideImagePart {
   width: 50%;
   background-color: white;
-
   height: 600px;
   display: flex;
   justify-content: center;
@@ -31,7 +34,7 @@
 
 .KnowMoreBtn {
   background-color: #4dc1ea;
- width:160px;
+  width: 160px;
   font-size: 18px;
   font-weight: 700;
   color: #ffff;
@@ -51,4 +54,29 @@
   margin-bottom: 40px;
   max-width: 450px;
   color: #6a6f76;
+}
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+  .homeContainer {
+    flex-direction: column;
+  }
+
+  .homeSectionLeftSideImagePart,
+  .homeSectionRightSideContentPart {
+    width: 100%;
+    height: auto;
+  }
+
+  .homeSectionMainHeading {
+    font-size: 40px;
+  }
+
+  .KnowMoreBtn {
+    width: 100%;
+  }
+
+  .companyDetails {
+    max-width: none;
+  }
 }

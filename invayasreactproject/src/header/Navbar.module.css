@@ -1,12 +1,13 @@
 /* Navbar.module.css */
 
+/* Common styles for both desktop and mobile */
 .navbarContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 30px 20px;
   padding: 0px 12px;
-  height:30px;
+  height: 30px;
 }
 
 .invayasLogo {
@@ -61,4 +62,24 @@
   padding: 12px 29px;
   border-radius: 10px;
   border: none;
+}
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+  .navbarContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 15px 10px;
+    height: auto;
+  }
+
+  .navbarContents ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .serviceContactBtn {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
