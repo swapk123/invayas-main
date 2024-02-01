@@ -12,13 +12,13 @@ const Home = () => {
   return (
     <React.Fragment>
       <div className={styles.homeContainer}>
-
         <div className={styles.homeSectionLeftSideImagePart}>
           <img src={homeSectionContents.homeSectionImage} alt="" />
         </div>
-
         <div className={styles.homeSectionRightSideContentPart}>
-          <h1 className={styles.homeSectionMainHeading}>{homeSectionContents.homeSectionHeading}</h1>
+          <h1 className={styles.homeSectionMainHeading}>
+            {homeSectionContents.homeSectionHeading}
+          </h1>
           <p className={styles.companyDetails}>
             {homeSectionContents.homeSectionDescription}
           </p>
@@ -26,7 +26,6 @@ const Home = () => {
             {homeSectionContents.homeSectionBtnContent}
           </button>
         </div>
-
       </div>
     </React.Fragment>
   );
