@@ -1,0 +1,21 @@
+.aboutFirstContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f7fa;
+}
+
+.aboutLeftSideDetails{
+  width:50%;
+ 
+  font-size: 16px;
+  padding:60px;
+}
+
+.aboutRightSideDetails{
+width:50%;
+}
+
+.aboutFirstContainerImage{
+max-width:100%;
+}
