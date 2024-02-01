@@ -1,0 +1,37 @@
+/* Services.module.css */
+
+.serviceCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.serviceCard {
+  width: 48%;
+  margin-bottom: 20px;
+  background-color: #fff6d6;
+  color: #212529;
+  border-radius: 15px;
+  padding: 10px 10px;
+}
+
+
+
+.servicesHeading {
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+
+.serviceDescription {
+  font-size: 15px;
+  color: #798089;
+
+  font-family: sans-serif;
+}
+
+@media (min-width: 990px) {
+  .serviceCard {
+    width: 48%;
+  }
+}
