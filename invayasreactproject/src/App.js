@@ -1,19 +1,20 @@
 import "./App.css";
-import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom';
+import {Route,  Routes } from 'react-router-dom';
 
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import ServicesList from "./pages/services/ServicesList";
 import Clients from "./pages/clients/Clients";
 import Contact from "./pages/contact/Contact";
-import Navbar from "./header/Navbar";
+// import Navbar from "./header/Navbar";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-       <Router>
+      
       <div>
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -22,7 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-    </Router>
+    
     </div>
   );
 }
